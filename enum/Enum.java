@@ -22,7 +22,7 @@ public class Enum {
         season = Season.WINTER;                   //Sätter värdet på season till WINTER
         System.out.println(season);               //Skriver ut WINTER
  
-        season =  Season.WINTERX;                  //Kraschar programmet, AUTUMN är inte fördefinierad som tillåten variabel i Season
+        season =  Season.AUTUMN;                  //Kraschar programmet, AUTUMN är inte fördefinierad som tillåten variabel i Season
  
     }
 }
